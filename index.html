@@ -81,7 +81,7 @@
 		<footer>
 			&#128140 마음 전하실 곳 <br>
 			<br>
-			선우영복: <p id="p1">1234-1234-1234</p><button onclick="copyToClipboard('#p1')">copy</button>, <a href="tel:555-555-5555">555-555-5555</a> <br>
+			선우영복: shinhan <p id="p1">1234-1234-1234</p><button onclick="copyToClipboard('#p1')">copy</button>, <a href="tel:555-555-5555">555-555-5555</a> <br>
 			김정미: 1234-1234-1234, <a href="tel:555-555-5555">555-555-5555</a><br>
 			선우성문: 1234-1234-1234 </a><br>
 			<br>
@@ -123,5 +123,14 @@
 	}).render();
 </script>
 
+<script>
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+</script>
 	</body>
 </html>
