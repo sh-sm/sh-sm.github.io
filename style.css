@@ -85,6 +85,17 @@ img {
 }
 /* NitPicky Stylings */
 
+.button {
+  background-color: #8a8a8a;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
     body {
