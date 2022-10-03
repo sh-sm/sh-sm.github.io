@@ -14,13 +14,16 @@
 		<meta name="og:description" content="2023년 2월 4일 대구 호텔인터불고 파크빌리지"/>
 		<meta name="twitter:card" content="함께할 때 비로소 깨닫는 사랑임을 영원히 기억하며 살겠습니다"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Gothic&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="/style.css" type="text/css"/>
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">  
 		<style>
 
 		</style>
 	</head>
-	<body>
+	<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
 		<div class="imageContainer">
 		<img src="img/main.jpg" id="mainImage">
 		</div>
@@ -127,8 +130,6 @@
 	</script>
 
 	<script>
-		
-
 		function copyText(text) {            
 			var tmpTextarea = document.createElement('textarea');
 			tmpTextarea.value = text;
@@ -139,9 +140,8 @@
 		 
 			document.execCommand('copy');
 			document.body.removeChild(tmpTextarea);
-			alert("복사가 완료되었습니다."); 					  
+			alert("복사하였습니다. 계좌번호: " + text); 					  
 		}
-		
 	</script>
 	</body>
 </html>
