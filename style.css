@@ -1,6 +1,6 @@
 @font-face {
     font-family: NotoSerifKRRegular;
-    src: url('fonts/NotoSerifKR-Regular.otf') format('opentype');
+    src: url('/fonts/NotoSerifKR-Regular.otf') format('opentype');
 }
 
 * {
@@ -33,6 +33,7 @@ body {
     background: #fff;
     color: #000;
     text-align: center;
+    font-family: 'Noto Sans KR', NotoSerifKRRegular, sans-serif;
 }
 
 footer {
