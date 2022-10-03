@@ -75,22 +75,22 @@
 		어머니 김정미: <br>
 		    <a href="tel:555-555-5555">전화 걸기</a> <br>
 		    <a href="sms:555-555-5555">문자 보내기</a> <br>
-		    신한 1234-1234-1234 <button onclick="copyText('1234-1234-1234')">계좌번호 복사</button> <br>
+		    신한 2345-2345-2345 <button onclick="copyText('2345-2345-2345')">계좌번호 복사</button> <br>
 		<br>
 		신부 측 혼주<br>
 		아버지 이수석: <br>
 		    <a href="tel:555-555-5555">전화 걸기</a> <br>
 		    <a href="sms:555-555-5555">문자 보내기</a> <br>
-		    신한 1234-1234-1234 <button onclick="copyText('1234-1234-1234')">계좌번호 복사</button> <br>
+		    신한 111-111-111 <button onclick="copyText('111-111-111')">계좌번호 복사</button> <br>
 		어머니 윤순선: <br>
 		    <a href="tel:555-555-5555">전화 걸기</a> <br>
 		    <a href="sms:555-555-5555">문자 보내기</a> <br>
-		    신한 1234-1234-1234 <button onclick="copyText('1234-1234-1234')">계좌번호 복사</button> <br>
+		    신한 123 <button onclick="copyText('123')">계좌번호 복사</button> <br>
 		<br>
 		신랑 선우성문: <br>
-		    신한 1234-1234-1234 <button onclick="copyText('1234-1234-1234')">계좌번호 복사</button> <br>
+		    신한 ssuggle <button onclick="copyText('ssuggle')">계좌번호 복사</button> <br>
 		신부 이소현: <br>
-		    신한 1234-1234-1234 <button onclick="copyText('1234-1234-1234')">계좌번호 복사</button> <br>
+		    신한 zinzza <button onclick="copyText('zinzza!!')">계좌번호 복사</button> <br>
 		<br>
 		<br>
 
@@ -132,10 +132,10 @@
 	<script>
 		function copyText(text) {
 			navigator.clipboard.writeText(text).then(() => {
-				alert("successfully copied");
+				alert("successfully copied. " + text);
 	 		})
 			.catch(() => {
-				alert("something went wrong");
+				alert("something went wrong...");
 			});
 		}
 	</script>
